@@ -5,3 +5,71 @@
 width: 100%;
 height: 100%;
 }
+
+#container {
+    display: flex;
+    flex-direction: column;
+    background-color:silver;
+    border: 1px solid black;
+    justify-content: space-between;
+}
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    /* border: 1px ridge black;  */
+    border-radius: 5px;
+    padding: 0px;
+    margin: 40px 10px 40px 40px;
+}
+
+
+#image-section-1, #image-section-2 {
+    width:35%;
+    background-color:yellowgreen;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#content-section-1, #content-section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 70px;
+    background-color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#headerline-1, #headerline-2{
+    font-size:50px;
+    font-weight:900;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#para-1, #para-2{
+    font-size:x-large;
+    font-weight:600;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#text-1, #text-2{
+    width: 130px;
+    background-color: yellowgreen;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+#divtext-1, #divtext-2{
+    color: white;
+    font-size:large;
+}
+
+#img1, #img2 {
+    position: relative;
+    display: block;
+    /* margin: -18px -15px 10px -15px; */
+    margin: -5vh -4vw 5vh -2vw;
+    /* margin: 0 auto; */
+    z-index: auto;
+}
