@@ -1,6 +1,6 @@
 /* Our CSS file. */
 
-
+ 
 .container, .content {
 width: 100%;
 height: 100%;
@@ -26,7 +26,7 @@ height: 100%;
 
 #image-section-1, #image-section-2 {
     width:35%;
-    background-color:yellowgreen;
+    background-color:rgb(93, 138, 3);
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
@@ -54,7 +54,7 @@ height: 100%;
 
 #text-1, #text-2{
     width: 130px;
-    background-color: yellowgreen;
+    background-color: rgb(93, 138, 3);
     border-radius: 30px;
     padding: 20px;
     text-align: center;
